@@ -162,7 +162,7 @@ SELECT DISTINCT name, weightInGms,
 FROM zepto;
 ```
 
-> 📄 The full script is in [`zepto_analysis.sql`](./zeptoProject.sql).
+> 📄 The full script is in [`zeptoProject.sql`](./zeptoProject.sql).
 
 ---
 
