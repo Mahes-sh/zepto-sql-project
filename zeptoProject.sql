@@ -92,7 +92,7 @@ order by mrp desc;
 
 ---Q3.Calculate Estimated Revenue for each category
 
-select category,sum(discountPercent*availableQuantity) as total_revenue 
+select category,sum(discountedSellingPrice*availableQuantity) as total_revenue 
 from zepto
 group by category 
 order by total_revenue Desc ;
